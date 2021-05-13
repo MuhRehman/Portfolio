@@ -182,9 +182,9 @@ $(function() {
   // CONTACT FORM
   $('#contact-form').submit(function(e) {
     e.preventDefault();
-
+alert("ss");
     $.ajax({
-      url: 'https://formspree.io/abdulrehman1@aol.com',
+      url: 'https://formspree.io/paki_jan@yahoo.com',
       method: 'POST',
       data: { message: $('form').serialize() },
       dataType: 'json'
