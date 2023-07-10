@@ -157,13 +157,19 @@ body {
   overflow-x: hidden;
 }
 .btn-wrapper .btn-download {
-  width: 50%;
+  width: 28%;
   border: 2px solid #04c2c9;
   color: #04c2c9;
+  padding: 12px 18px;
+  font-weight: bold;
 }
 .btn-wrapper {
+  margin-top: 12px;
   display: flex;
   justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+margin-right: auto;
 }
 .canvas {
   /* background: url("../img/filler.png") center center/cover; */
