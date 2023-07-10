@@ -156,7 +156,15 @@ body {
 .overflow-wrap {
   overflow-x: hidden;
 }
-
+.btn-wrapper .btn-download {
+  width: 50%;
+  border: 2px solid #04c2c9;
+  color: #04c2c9;
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 .canvas {
   /* background: url("../img/filler.png") center center/cover; */
   height: 100%;
