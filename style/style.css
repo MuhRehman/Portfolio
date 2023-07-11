@@ -759,22 +759,22 @@ section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
   background: url("../img/slides/dashboard.PNG") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-  background: url("../img/thumb-4.jpg") center center/cover;
+  background: url("../img/dpl1.PNG") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
   background: url("../img/slides/utorsol.PNG") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-  background: url("../img/thumb-6.jpg") center center/cover;
+  background: url("../img/ninja.PNG") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-  background: url("../img/thumb-7.jpg") center center/cover;
+  background: url("../img/pak.PNG") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
   background: url("../img/slides/checker.PNG") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
-  background: url("../img/thumb-9.jpg") center center/cover;
+  background: url("../img/zad.PNG") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
   background: url("../img/thumb-10.html") center center/cover;
@@ -1151,6 +1151,9 @@ footer .footnote .highlight {
   margin-bottom: 2px;
   height: 10px;
   width: 10px;
+}
+.me {
+  filter: drop-shadow(7px 10px 4px #666);
 }
 .timeline-body ul li {
   text-align: left;
