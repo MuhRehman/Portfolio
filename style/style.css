@@ -1142,6 +1142,23 @@ footer .footnote .highlight {
   padding: 10px 15px;
   margin-bottom: 0;
 }
+.timeline-body ul li:before { /* the custom styled bullets */
+  background-color: #14CCBB;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  height: 10px;
+  width: 10px;
+}
+.timeline-body ul li {
+  text-align: left;
+}
+.timeline-body ul {
+  list-style-type: none; /* no default bullets */
+  padding: 20px 40px;
+}
 .timeline-footer {
   padding: 5px 15px;
   background-color:#f4f4f4;
