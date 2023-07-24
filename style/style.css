@@ -1229,6 +1229,28 @@ footer .footnote .highlight {
   .timeline > li.timeline-inverted > .timeline-badge {
       left: 28px;
   }
+  .timeline-body ul {
+    list-style-type: none; /* no default bullets */
+    padding: 20px 10px;
+  }
+  .timeline-body ul li:before {
+  
+    margin-right: 10px;
+    margin-bottom: 1px;
+    height: 5px;
+    width: 5px;
+}
+.timeline-body ul li {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.timeline-heading h4 {
+  font-weight: bold;
+  padding: 0 15px;
+  color: #04c2c9;
+  line-height: 26px;
+  font-size: 20px;
+}
 }
 .work-wrap {
   /* background-color: red; */
